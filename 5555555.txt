@@ -1,0 +1,16 @@
+ // $myfile = fopen("newFileBoti.txt","w+");
+          // fwrite($myfile, print_r($checkEleve, true));
+          // fclose($myfile);
+          // exit;
+
+
+  $parent->User->Homme;
+              $myfile = fopen("newFileBoti.txt","a");
+              fwrite($myfile, print_r($parent, true));
+              fclose($myfile);
+		exit;
+
+          // $myfile = fopen("newFileBoti.txt","w+");
+          // fwrite($myfile, print_r($eleve->parents(), true));
+          // fclose($myfile);
+          // exit;

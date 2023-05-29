@@ -1,1 +1,98 @@
-dsze
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>JavaScript example</title>
+            <meta charSet="UTF-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <link rel="stylesheet" href="./css/main.css"/>
+            <style media="only screen">
+                html, body {
+                    height: 100%;
+                    width: 100%;
+                    margin: 0;
+                    box-sizing: border-box;
+                    -webkit-overflow-scrolling: touch;
+                }
+
+                html {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    padding: 0;
+                    overflow: auto;
+                }
+                
+                body {
+                    padding: 1rem;
+                    overflow: auto;
+                }
+            </style>
+            <link rel="stylesheet" href="styles.css"/>
+        </head>
+        <body>
+            <div class="test-container">
+                <div class="test-header">
+                    <div class="test-button-row">
+            <div class="test-button-group">
+                <button onclick="onBtSortOn()">Sort On</button>
+                <br>
+                <button onclick="onBtSortOff()">Sort Off</button>
+            </div>
+            <div class="test-button-group">
+                    <button onclick="onBtWidthNarrow()">Width Narrow</button>
+                    <br>
+                        <button onclick="onBtWidthNormal()">Width Normal</button>
+                    </div>
+                    <div class="test-button-group">
+                        <button onclick="onBtHide()">Hide Cols</button>
+                        <br>
+                        <button onclick="onBtShow()">Show Cols</button>
+                    </div>
+                    <div class="test-button-group">
+                        <button onclick="onBtReverseOrder()">Reverse Medal Order</button>
+                        <br>
+                        <button onclick="onBtNormalOrder()">Normal Medal Order</button>
+                    </div>
+                    <div class="test-button-group">
+                                <button onclick="onBtRowGroupOn()">Row Group On</button>
+                                <br>
+                                <button onclick="onBtRowGroupOff()">Row Group Off</button>
+                            </div>
+                            <div class="test-button-group">
+                        <button onclick="onBtAggFuncOn()">Agg Func On</button>
+                            <br>
+                            <button onclick="onBtAggFuncOff()">Agg Func Off</button>
+                        </div>
+                        <div class="test-button-group">
+                            <button onclick="onBtPivotOn()">Pivot On</button>
+                            <br>
+                            <button onclick="onBtPivotOff()">Pivot Off</button>
+                        </div>
+                        <div class="test-button-group">
+                                    <button onclick="onBtPinnedOn()">Pinned On</button>
+                                    <br>
+                                    <button onclick="onBtPinnedOff()">Pinned Off</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="myGrid" class="ag-theme-alpine">
+                        </div>
+                    </div>
+            <script>var __basePath = './';</script>
+            <script src="https://cdn.jsdelivr.net/npm/ag-grid-enterprise@29.3.5/dist/ag-grid-enterprise.min.js"></script>
+            <script src="./js/jscode.js"></script>
+            <script src="./js/newjs.js"></script>
+            
+        </body>
+</html>
